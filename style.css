@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: "Helvetica Neue"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700;
+  
+}
+.main{
+    width:1128px;
+    height:1602px;
+    padding: 16px 15px 16px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: initial;
+    display: flex;
+    flex-direction: row; 
+    border: 1px solid #04010E;
+    align-content: space-between;
+    color: #70FD59;
+    background-color:#04010E;
+}
+
+.main > div{
+    width: 274px;
+}
+.subtitle__content{
+    height:214px;
+    line-height: 59.5%;
+}
+
+.info__content{
+    font-size: 50px;
+    height: 214px;
+    line-height: 43.5%;
+    width: 650px;
+    margin-top: -4%;
+}
+
+.logo__content{
+    height: 748px;
+    
+}
+
+.logo__image{
+    margin-top: 45px;
+    width: 658px;
+    height: 658px;
+    border-radius: 50%;
+}
+
+.subtitle__2__content{
+    height: 282px;
+    line-height: 59.5%;
+}
+
+.typo__content{
+    height:428px;
+    margin-left: -32%;
+    margin-top: -1%;
+}
+
+.center__content{
+    height:748px;
+    float: right;
+}
+
+.center__image{
+    margin-top: 45px;
+    width: 658px;
+    height: 658px;
+}
+
+.artist__content{
+    font-size: 140px;
+    width: 650px;
+    vertical-align: text-top;
+    margin-left: -3%;
+    line-height: 75%;
+}
+
+.date__content{
+    text-align: right;
+    font-size: 140px;
+    line-height:92%;
+}
