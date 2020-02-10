@@ -49,7 +49,12 @@ body{
     margin-top: 45px;
     width: 658px;
     height: 658px;
-    border-radius: 50%;
+}
+
+.logo__content:hover{
+    background-image: url(water-flow.gif);
+    width: 1098px;
+    mix-blend-mode: color-dodge;
 }
 
 .subtitle__2__content{
